@@ -11,13 +11,14 @@ import {AiOutlinePieChart} from 'react-icons/ai';
 import {BiTrendingUp} from 'react-icons/bi';
 import {MdOutlinePermContactCalendar} from 'react-icons/md';
 import {BsFillCreditCard2FrontFill} from 'react-icons/bs';
+import {BsQuestionCircle} from 'react-icons/bs';
 
 const Sidebar = () => {
     return(
         <div className='sideBar grid'>
             <div className='logoDiv flex'>
                 <img src={logo} alt="Image Name"/>
-                <h2>Planti.</h2>
+                <h2>MyGarden</h2>
             </div>
 
             <div className="menuDiv">
@@ -78,6 +79,17 @@ const Sidebar = () => {
                         </a>
                     </li>
                 </ul>
+            </div>
+
+            <div className="sideBarCard">
+                <BsQuestionCircle className="icon"/>
+                <div className="cardContent">
+                    <div className="circle1"></div>
+                    <div className="circle1"></div>
+                    <h3>Help Center</h3>
+                    <p>Having problem in MyGarden, please contact us from for more question.</p>
+                    <button className="btn">Go to help center</button>
+                </div>
             </div>
         </div>
     )
