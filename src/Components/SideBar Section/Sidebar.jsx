@@ -85,7 +85,7 @@ const Sidebar = () => {
                 <BsQuestionCircle className="icon"/>
                 <div className="cardContent">
                     <div className="circle1"></div>
-                    <div className="circle1"></div>
+                    <div className="circle2"></div>
                     <h3>Help Center</h3>
                     <p>Having problem in MyGarden, please contact us from for more question.</p>
                     <button className="btn">Go to help center</button>
